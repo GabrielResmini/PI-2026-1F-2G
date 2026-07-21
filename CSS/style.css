@@ -42,3 +42,70 @@ body{
     color:#9be287;
 }
 
+.pesquisa{
+    display:flex;
+    justify-content:center;
+    margin:20px 0;
+}
+
+#barraPesquisa{
+    width:400px;
+    padding:10px 15px;
+    border:2px solid #0b5e25;
+    border-radius:20px;
+    font-size:16px;
+}
+.hero{
+    
+}
+
+.hero-conteudo{
+
+}
+
+.hero-imagem{
+
+}
+
+.estatisticas{
+
+}
+
+.grid-acesso{
+
+}
+
+.grid-aulas{
+
+}
+
+.card-aula{
+
+}
+
+.info-aula{
+
+}
+
+.botao-principal{
+
+}
+
+.botao-secundario{
+
+}
+
+.botao-pequeno{
+
+}
+
+footer{
+
+}
+.botao-secundario{
+
+}
+
+.botao-pequeno{
+
+}
