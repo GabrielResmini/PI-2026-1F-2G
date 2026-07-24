@@ -1,49 +1,157 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Corrida do Arco</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminhada com Faixa - Metodiza</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
-
 <body>
 
-    <header>
-        <h1>Corrida do Arco</h1>
+    <header class="menu">
+        <div class="logo">METODIZA</div>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="aulas.html">Aulas</a></li>
+                <li><a href="materiais.html">Materiais</a></li>
+                <li><a href="metodologias.html">Metodologias</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+        <button class="menu-busca" aria-label="Pesquisar">
+            <img src="" alt="">
+        </button>
     </header>
 
-    <main>
+    <section class="hero-materia">
+        <div class="hero-conteudo">
+            <h1 class="hero-titulo">Título Principal</h1>
+            <p class="hero-texto">Texto</p>
+        </div>
 
-        <section>
-            <h2>Sobre a atividade</h2>
-            <p></p>
-        </section>
+        <div class="hero-imagem">
+            <img src="imagens/caminhada-faixa.png" alt="Caminhada com Faixa" class="hero-img">
+        </div>
+    </section>
 
-        <section>
-            <h2>Materiais necessários</h2>
-            <p></p>
-        </section>
+    <div class="voltar-pagina">
+        <a href="materiais.html" class="botao-voltar-topo">
+            <img src="imagens/seta-esquerda.png" alt="" width="14">
+            VOLTAR
+        </a>
+    </div>
 
-        <section>
-            <h2>Como jogar</h2>
-            <p></p>
-        </section>
+    <section class="detalhes-aula">
 
-        <section>
-            <h2>Objetivo</h2>
-            <p></p>
-        </section>
+        <div class="card-sobre">
+            <h3 class="titulo-card-aula">SOBRE A ATIVIDADE</h3>
+            <p class="texto-card-aula">Texto</p>
+        </div>
 
-        <section>
-            <h2>Regras</h2>
-            <p></p>
-        </section>
+        <div class="card-materiais">
+            <h3 class="titulo-card-aula">MATERIAIS NECESSÁRIOS</h3>
+            <div class="grid-materiais">
+                <div class="item-material">
+                    <img src="imagens/fita-crepe.png" alt="" width="40">
+                    <span>Texto</span>
+                </div>
+                <div class="item-material">
+                    <img src="imagens/corda.png" alt="" width="40">
+                    <span>Texto</span>
+                </div>
+                <div class="item-material">
+                    <img src="imagens/giz.png" alt="" width="40">
+                    <span>Texto</span>
+                </div>
+                <div class="item-material">
+                    <img src="imagens/cone.png" alt="" width="40">
+                    <span>Texto</span>
+                </div>
+                <div class="item-material">
+                    <img src="imagens/venda.png" alt="" width="40">
+                    <span>Texto</span>
+                </div>
+            </div>
+        </div>
 
-    </main>
+        <div class="card-como-jogar">
+            <h3 class="titulo-card-aula">
+                <img src="imagens/prancheta.png" alt="" width="20">
+                COMO JOGAR
+            </h3>
+            <ol class="lista-como-jogar">
+                <li>Texto</li>
+                <li>Texto</li>
+                <li>Texto</li>
+                <li>Texto</li>
+            </ol>
+        </div>
 
-    <footer>
+        <div class="card-objetivo">
+            <h3 class="titulo-card-aula">OBJETIVO</h3>
+            <p class="texto-card-aula">Texto</p>
+        </div>
+
+        <div class="card-regras">
+            <div class="regras-conteudo">
+                <h3 class="titulo-card-aula">
+                    <img src="imagens/escudo.png" alt="" width="20">
+                    REGRAS
+                </h3>
+                <ul class="lista-regras">
+                    <li>Texto</li>
+                    <li>Texto</li>
+                    <li>Texto</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <div class="rodape-marca">
+                <span class="rodape-logo-icone">
+                    <img src="imagens/metodiza.png" alt="logo" width="50">
+                </span>
+                <div>
+                    <p class="rodape-logo-texto">METODIZA</p>
+                    <p class="rodape-tagline">Promovendo conhecimento, prática e inclusão através do esporte e da educação.</p>
+                </div>
+            </div>
+
+            <div class="rodape-coluna">
+                <h4>NAVEGAÇÃO</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="aulas.html">Aulas</a></li>
+                    <li><a href="materiais.html">Materiais</a></li>
+                    <li><a href="forum.html">Fórum</a></li>
+                    <li><a href="metodologias.html">Metodologias</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="rodape-coluna">
+                <h4>SUPORTE</h4>
+                <ul>
+                    <li>Central de ajuda</li>
+                    <li>Fale Conosco</li>
+                    <li>Política de privacidade</li>
+                    <li>Termos de uso</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rodape-base">
+            <p>© 2026 Metodiza. Todos os direitos reservados.</p>
+            <div class="rodape-base-links">
+                Política de privacidade  |  
+                   Termos de uso
+            </div>
+        </div>
     </footer>
 
 </body>
-
 </html>
