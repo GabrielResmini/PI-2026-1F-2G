@@ -411,6 +411,16 @@ nav a:hover{
     color:var(--texto);
 }
 
+.grid-aulas > a{
+    display:flex;
+    flex:1;
+    min-width:220px;
+}
+
+.grid-aulas > a .card-aula{
+    width:100%;
+}
+
 .card-aula:hover,
 .card:hover{
     box-shadow:0 4px 12px rgba(0,0,0,0.15);
@@ -450,6 +460,30 @@ nav a:hover{
 
 .info-aula{
     padding:14px 16px 18px;
+}
+
+.info-aula-texto{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+}
+
+.info-aula-materia{
+    color:var(--verde-principal);
+    font-size:12px;
+    font-weight:700;
+}
+
+.info-aula-acao{
+    display:inline-block;
+    margin-top:12px;
+    color:var(--verde-principal);
+    font-size:12px;
+    font-weight:800;
+}
+
+.card-aula:hover .info-aula-acao{
+    text-decoration:underline;
 }
 
 .info-aula strong{
@@ -844,6 +878,215 @@ footer{
     font-size:13px;
 }
 
+.menu-nav a{
+    position:relative;
+}
+
+.menu-nav a::after{
+    content:'';
+    position:absolute;
+    right:0;
+    bottom:-6px;
+    left:0;
+    height:2px;
+    border-radius:2px;
+    background:var(--verde-claro);
+    transform:scaleX(0);
+    transition:transform .2s ease;
+}
+
+.menu-nav a:hover::after,
+.menu-nav a:focus-visible::after{
+    transform:scaleX(1);
+}
+
+a:focus-visible,
+button:focus-visible{
+    outline:3px solid var(--verde-claro);
+    outline-offset:3px;
+}
+
+.hero-materia{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:32px;
+    min-height:230px;
+    padding:52px max(8%, calc((100% - 1100px) / 2));
+    color:var(--branco);
+    background:linear-gradient(120deg, var(--verde-escuro), var(--verde-principal));
+}
+
+.hero-materia .hero-titulo{
+    margin-bottom:8px;
+    color:var(--branco);
+    font-size:clamp(32px, 5vw, 46px);
+    line-height:1.12;
+}
+
+.hero-materia .hero-texto{
+    margin:0;
+    color:var(--verde-claro);
+    font-weight:600;
+}
+
+.hero-materia .hero-imagem{
+    width:210px;
+    min-width:160px;
+}
+
+.hero-materia .hero-img{
+    max-height:160px;
+    object-fit:contain;
+}
+
+.hero-materia img[src=""]{
+    display:none;
+}
+
+.hero-materia .hero-img[src="imagens/livro aula.png"]{
+    display:none;
+}
+
+.voltar-pagina{
+    max-width:1100px;
+    margin:26px auto -24px;
+    padding:0 8%;
+}
+
+.botao-voltar-topo{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:8px 13px;
+    border:1px solid var(--verde-borda);
+    border-radius:999px;
+    color:var(--verde-escuro);
+    background:var(--branco);
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:.04em;
+    transition:background .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.botao-voltar-topo:hover{
+    border-color:var(--verde-principal);
+    background:var(--verde-fundo);
+    transform:translateX(-2px);
+}
+
+.detalhes-aula{
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:18px;
+    max-width:1100px;
+    margin:0 auto;
+    padding:60px 8%;
+}
+
+.card-sobre,
+.card-materiais,
+.card-como-jogar,
+.card-objetivo,
+.card-regras{
+    padding:24px;
+    border:1px solid var(--verde-borda);
+    border-radius:14px;
+    background:var(--branco);
+    box-shadow:0 3px 12px rgba(11, 107, 47, .06);
+}
+
+.card-sobre,
+.card-materiais,
+.card-regras{
+    grid-column:1 / -1;
+}
+
+.card-materiais{
+    background:var(--verde-fundo-suave);
+}
+
+.card-regras{
+    border-left:4px solid var(--verde-principal);
+}
+
+.titulo-card-aula{
+    margin-bottom:12px;
+    color:var(--verde-principal);
+    font-size:13px;
+    font-weight:800;
+    letter-spacing:.06em;
+}
+
+.texto-card-aula,
+.lista-como-jogar li,
+.lista-regras li{
+    color:var(--texto-suave);
+    line-height:1.7;
+}
+
+.lista-como-jogar,
+.lista-regras{
+    padding-left:20px;
+}
+
+.lista-como-jogar{
+    list-style:decimal;
+}
+
+.lista-regras{
+    list-style:disc;
+}
+
+.lista-como-jogar li + li,
+.lista-regras li + li{
+    margin-top:8px;
+}
+
+.grid-materiais .item-material{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.catalogo-atividades{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:16px;
+}
+
+.grupo-material{
+    padding:18px;
+    border:1px solid var(--verde-borda);
+    border-radius:12px;
+    background:var(--branco);
+}
+
+.grupo-material h2{
+    margin-bottom:10px;
+    color:var(--verde-principal);
+    font-size:16px;
+}
+
+.grupo-material ul{
+    display:grid;
+    gap:5px;
+}
+
+.grupo-material a{
+    display:block;
+    padding:6px 8px;
+    border-radius:7px;
+    color:var(--texto-suave);
+    font-size:14px;
+    transition:background .2s ease, color .2s ease;
+}
+
+.grupo-material a:hover{
+    color:var(--verde-escuro);
+    background:var(--verde-fundo);
+}
+
 /* paginas */
 @media (max-width:900px){
     header{
@@ -895,6 +1138,16 @@ footer{
         grid-template-columns:1fr;
         text-align:center;
     }
+
+    .hero-materia{
+        flex-direction:column;
+        align-items:flex-start;
+        min-height:0;
+    }
+
+    .hero-materia .hero-imagem{
+        display:none;
+    }
 }
 
 @media (max-width:600px){
@@ -910,5 +1163,21 @@ footer{
     }
     .estatisticas{
         flex-direction:column;
+    }
+
+    .detalhes-aula{
+        grid-template-columns:1fr;
+        gap:14px;
+        padding-top:48px;
+    }
+
+    .card-sobre,
+    .card-materiais,
+    .card-regras{
+        grid-column:auto;
+    }
+
+    .voltar-pagina{
+        margin-bottom:-18px;
     }
 }
