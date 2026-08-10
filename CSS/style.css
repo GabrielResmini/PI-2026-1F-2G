@@ -280,7 +280,6 @@ nav a:hover{
     margin-top:6px;
 }
 
-/* ===== TÍTULOS DE SEÇÃO ===== */
 .falta-titulo{
     color:var(--verde-principal);
     font-size:18px;
@@ -369,7 +368,7 @@ nav a:hover{
     vertical-align:middle;
 }
 
-/*AULAS  */
+
 .aulas-disponiveis,
 .metodologias-destaque,
 .cards,
@@ -641,7 +640,6 @@ section p{
     margin-right:10px;
 }
 
-/* METODOLOGIAS  */
 .grid-metodologias{
     display:flex;
     flex-wrap:wrap;
@@ -768,7 +766,6 @@ section p{
     margin-bottom:12px;
 }
 
-/* RODAPÉ */
 footer{
     background:var(--verde-principal);
     color:var(--branco);
@@ -1095,7 +1092,7 @@ button:focus-visible{
     background:var(--verde-fundo);
 }
 
-/* paginas */
+
 @media (max-width:900px){
     header{
         flex-direction:column;
