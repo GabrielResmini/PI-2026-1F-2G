@@ -42,7 +42,7 @@ img{
     display:block;
 }
 
-/* cabeçalho */
+
 header{
     width:100%;
     background:var(--verde-principal);
@@ -91,7 +91,6 @@ nav a:hover{
     font-weight:800;
     font-size:22px;
 }
-
 
 .botao-principal,
 .botao,
@@ -227,7 +226,7 @@ nav a:hover{
     width:100%;
 }
 
-8i9
+
 .estatisticas{
     display:flex;
     flex-wrap:wrap;
@@ -465,7 +464,6 @@ nav a:hover{
     display:flex;
     flex-direction:column;
     gap:2px;
-
 }
 
 .info-aula-materia{
@@ -541,7 +539,6 @@ section p{
     line-height:1.8;
 }
 
-
 .funciona{
     text-align:center;
 }
@@ -594,14 +591,7 @@ section p{
     font-weight:700;
     margin-bottom:16px;
 }
-.card-aula-titulo{
-    padding: 5px;
-    margin: 7px;
-    color: #222;
-    margin-bottom: 10px;
-    text-align: center;
-    
-}
+
 .lista-pilares li,
 .lista-cronograma li{
     margin-bottom:12px;
@@ -639,6 +629,7 @@ section p{
     border-radius:14px;
     margin-right:10px;
 }
+
 
 .grid-metodologias{
     display:flex;
@@ -699,7 +690,6 @@ section p{
     color:var(--verde-medio);
     text-decoration:underline;
 }
-
 
 .falta-container{
     width:90%;
