@@ -466,6 +466,7 @@ nav a:hover{
     display:flex;
     flex-direction:column;
     gap:2px;
+
 }
 
 .info-aula-materia{
@@ -594,7 +595,14 @@ section p{
     font-weight:700;
     margin-bottom:16px;
 }
-
+.card-aula-titulo{
+    padding: 5px;
+    margin: 7px;
+    color: #222;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
 .lista-pilares li,
 .lista-cronograma li{
     margin-bottom:12px;
