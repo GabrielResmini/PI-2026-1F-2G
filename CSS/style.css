@@ -14,7 +14,7 @@
     --branco:#fff;
 }
 
-/* geral */
+
 *{
     margin:0;
     padding:0;
@@ -170,7 +170,7 @@ nav a:hover{
     background:var(--verde-escuro);
 }
 
-/* ===== HERO / BANNER (seção de destaque de cada página) ===== */
+
 .hero,
 .banner,
 .falta-banner{
@@ -298,7 +298,7 @@ nav a:hover{
     text-align:center;
 }
 
-/* ===== ACESSO RÁPIDO / CARDS DE ACESSO (mesclado) ===== */
+
 .acesso-rapido,
 .acesso,
 .falta-acesso{
@@ -499,7 +499,7 @@ nav a:hover{
     line-height:1.4;
 }
 
-/* SEÇÃO DE CONTEÚDO */
+
 .info{
     display:flex;
     align-items:flex-start;
@@ -541,7 +541,7 @@ section p{
     line-height:1.8;
 }
 
-/* COMO FUNCIONA  */
+
 .funciona{
     text-align:center;
 }
@@ -565,7 +565,7 @@ section p{
     margin-bottom:10px;
 }
 
-/*  DESTAQUES e CRONOGRAMA  */
+
 .destaques{
     display:flex;
     flex-wrap:wrap;
