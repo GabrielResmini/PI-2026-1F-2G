@@ -1007,7 +1007,8 @@ button:focus-visible{
 .card-materiais,
 .card-como-jogar,
 .card-objetivo,
-.card-regras{
+.card-regras,
+.card-variacoes{
     padding:24px;
     border:1px solid var(--verde-borda);
     border-radius:14px;
@@ -1017,7 +1018,8 @@ button:focus-visible{
 
 .card-sobre,
 .card-materiais,
-.card-regras{
+.card-regras,
+.card-variacoes{
     grid-column:1 / -1;
 }
 
@@ -1027,6 +1029,15 @@ button:focus-visible{
 
 .card-regras{
     border-left:4px solid var(--verde-principal);
+}
+
+.card-variacoes{
+    background:var(--verde-fundo-suave);
+    border-left:4px solid var(--verde-claro);
+}
+
+.card-variacoes p + p{
+    margin-top:8px;
 }
 
 .titulo-card-aula{
