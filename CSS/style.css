@@ -1212,13 +1212,6 @@ button:focus-visible{
   font-weight: bold;
 }
 
-/* ==================================================
-   PÁGINA DE MATERIAIS - METODIZA
-   ================================================== */
-
-
-/* ================= HERO ================= */
-
 .hero-materia {
     min-height: 330px;
 
@@ -1282,8 +1275,6 @@ button:focus-visible{
 }
 
 
-/* ================= VOLTAR ================= */
-
 .voltar-pagina {
     display: flex;
 
@@ -1325,8 +1316,6 @@ button:focus-visible{
 }
 
 
-/* ================= CONTEÚDOS ================= */
-
 .conteudos-teoricos {
     max-width: 1200px;
 
@@ -1342,8 +1331,6 @@ button:focus-visible{
     gap: 25px;
 }
 
-
-/* TÍTULO */
 
 .conteudos-teoricos > h2 {
     grid-column: 1 / -1;
@@ -1385,8 +1372,6 @@ button:focus-visible{
     font-size: 16px;
 }
 
-
-/* ================= CARDS ================= */
 
 .card-conteudo {
     background: #ffffff;
@@ -1438,7 +1423,6 @@ button:focus-visible{
 }
 
 
-/* ================= BOTÃO PDF ================= */
 
 .botao-download {
     margin-top: auto;
@@ -1479,7 +1463,6 @@ button:focus-visible{
 }
 
 
-/* ================= EXERCÍCIOS ================= */
 
 .exercicios-praticos {
     max-width: 1200px;
@@ -1561,7 +1544,6 @@ button:focus-visible{
 }
 
 
-/* ================= RODAPÉ ================= */
 
 .rodape {
     background: #064D25;
@@ -1657,7 +1639,6 @@ button:focus-visible{
 }
 
 
-/* BASE */
 
 .rodape-base {
     max-width: 1200px;
@@ -1695,9 +1676,6 @@ button:focus-visible{
 }
 
 
-/* ==================================================
-   RESPONSIVIDADE
-   ================================================== */
 
 @media (max-width: 950px) {
 
