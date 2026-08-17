@@ -1222,3 +1222,556 @@ button:focus-visible{
   border-radius: 4px;
   font-weight: bold;
 }
+
+.hero-materia {
+    min-height: 330px;
+
+    background: linear-gradient(
+        135deg,
+        #0B6B2F,
+        #145827
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 55px 8%;
+
+    color: white;
+
+    overflow: hidden;
+}
+
+.hero-conteudo {
+    max-width: 650px;
+}
+
+.hero-titulo {
+    font-size: 48px;
+
+    line-height: 1.1;
+
+    margin: 0 0 20px;
+
+    font-weight: 800;
+}
+
+.hero-texto {
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    max-width: 600px;
+
+    margin: 0;
+
+    color: #f1f8f1;
+}
+
+.hero-imagem {
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 100%;
+
+    max-height: 280px;
+
+    object-fit: contain;
+}
+
+
+.voltar-pagina {
+    display: flex;
+
+    justify-content: center;
+
+    padding: 30px 20px 10px;
+}
+
+.botao-voltar-topo {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 11px 24px;
+
+    border: 1px solid #cfdccf;
+
+    border-radius: 30px;
+
+    background: white;
+
+    color: #145827;
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.botao-voltar-topo:hover {
+    background: #EAF5EA;
+
+    border-color: #43A047;
+
+    transform: translateY(-2px);
+}
+
+
+.conteudos-teoricos {
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 35px 25px 60px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+.conteudos-teoricos > h2 {
+    grid-column: 1 / -1;
+
+    margin: 0;
+
+    font-size: 32px;
+
+    color: #145827;
+
+    position: relative;
+
+    padding-bottom: 12px;
+}
+
+.conteudos-teoricos > h2::after {
+    content: "";
+
+    display: block;
+
+    width: 55px;
+
+    height: 4px;
+
+    background: #43A047;
+
+    border-radius: 5px;
+
+    margin-top: 8px;
+}
+
+.conteudos-teoricos > p {
+    grid-column: 1 / -1;
+
+    margin-top: -15px;
+
+    color: #666;
+
+    font-size: 16px;
+}
+
+
+.card-conteudo {
+    background: #ffffff;
+
+    border: 1px solid #D5E9D2;
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    min-height: 230px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.06);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.card-conteudo:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.11);
+}
+
+
+/* TÍTULO DO CARD */
+
+.card-conteudo h3 {
+    margin: 0 0 12px;
+
+    font-size: 23px;
+
+    color: #0B6B2F;
+}
+
+.card-conteudo p {
+    color: #555;
+
+    line-height: 1.6;
+
+    margin: 0 0 20px;
+}
+
+
+
+.botao-download {
+    margin-top: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 7px;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 13px 18px;
+
+    background: #0B6B2F;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: 700;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+.botao-download:hover {
+    background: #145827;
+
+    transform: scale(1.02);
+}
+
+
+
+.exercicios-praticos {
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 20px 25px 70px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.exercicios-praticos > h2 {
+    grid-column: 1 / -1;
+
+    font-size: 30px;
+
+    color: #145827;
+
+    margin: 0;
+}
+
+.exercicios-praticos > h2::after {
+    content: "";
+
+    display: block;
+
+    width: 55px;
+
+    height: 4px;
+
+    background: #43A047;
+
+    border-radius: 5px;
+
+    margin-top: 8px;
+}
+
+
+/* CARDS DE INFORMAÇÃO */
+
+.card-exercicio {
+    background: #EAF5EA;
+
+    border: 1px solid #D5E9D2;
+
+    border-radius: 16px;
+
+    padding: 25px;
+
+    transition: 0.3s;
+}
+
+.card-exercicio:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-exercicio h3 {
+    margin: 0 0 10px;
+
+    color: #0B6B2F;
+
+    font-size: 20px;
+}
+
+.card-exercicio p {
+    margin: 0;
+
+    color: #555;
+
+    line-height: 1.6;
+}
+
+
+
+.rodape {
+    background: #064D25;
+
+    color: white;
+
+    margin-top: 30px;
+}
+
+.rodape-conteudo {
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 50px 25px;
+
+    display: grid;
+
+    grid-template-columns:
+        2fr 1fr 1fr;
+
+    gap: 50px;
+}
+
+
+/* MARCA */
+
+.rodape-marca {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 15px;
+}
+
+.rodape-logo-icone img {
+    display: block;
+}
+
+.rodape-logo-texto {
+    margin: 0 0 8px;
+
+    font-size: 22px;
+
+    font-weight: 800;
+}
+
+.rodape-tagline {
+    max-width: 330px;
+
+    margin: 0;
+
+    color: #d7e8dc;
+
+    line-height: 1.6;
+}
+
+
+/* COLUNAS */
+
+.rodape-coluna h4 {
+    margin: 0 0 18px;
+
+    font-size: 14px;
+
+    letter-spacing: 1px;
+}
+
+.rodape-coluna ul {
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+.rodape-coluna li {
+    margin-bottom: 11px;
+
+    color: #d7e8dc;
+}
+
+.rodape-coluna a {
+    color: #d7e8dc;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.rodape-coluna a:hover {
+    color: white;
+}
+
+
+
+.rodape-base {
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 20px 25px;
+
+    border-top: 1px solid rgba(
+        255,
+        255,
+        255,
+        0.18
+    );
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    color: #d7e8dc;
+
+    font-size: 13px;
+}
+
+.rodape-base p {
+    margin: 0;
+}
+
+.rodape-base-links {
+    text-align: right;
+}
+
+
+
+@media (max-width: 950px) {
+
+    .hero-materia {
+        padding: 50px 6%;
+    }
+
+    .hero-titulo {
+        font-size: 40px;
+    }
+
+    .hero-imagem {
+        width: 35%;
+    }
+
+    .conteudos-teoricos {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .exercicios-praticos {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .rodape-conteudo {
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .hero-materia {
+        min-height: auto;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 45px 25px;
+    }
+
+    .hero-titulo {
+        font-size: 34px;
+    }
+
+    .hero-texto {
+        font-size: 16px;
+    }
+
+    .hero-imagem {
+        width: 100%;
+
+        margin-top: 25px;
+    }
+
+    .conteudos-teoricos {
+        grid-template-columns: 1fr;
+
+        padding: 30px 20px 50px;
+    }
+
+    .exercicios-praticos {
+        grid-template-columns: 1fr;
+
+        padding: 20px 20px 50px;
+    }
+
+    .rodape-conteudo {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .rodape-base {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .rodape-base-links {
+        text-align: left;
+    }
+
+}
