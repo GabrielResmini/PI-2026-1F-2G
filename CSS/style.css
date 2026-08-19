@@ -1518,7 +1518,6 @@ button:focus-visible{
 }
 
 
-/* CARDS DE INFORMAÇÃO */
 
 .card-exercicio {
     background: #EAF5EA;
@@ -1581,7 +1580,6 @@ button:focus-visible{
 }
 
 
-/* MARCA */
 
 .rodape-marca {
     display: flex;
@@ -1614,7 +1612,6 @@ button:focus-visible{
 }
 
 
-/* COLUNAS */
 
 .rodape-coluna h4 {
     margin: 0 0 18px;
