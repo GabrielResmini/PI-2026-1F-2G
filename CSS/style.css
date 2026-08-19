@@ -951,6 +951,7 @@ button:focus-visible{
 .hero-materia .hero-imagem{
     width:210px;
     min-width:160px;
+    border-radius: 15px;
 }
 
 .hero-materia .hero-img{
