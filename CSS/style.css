@@ -225,7 +225,12 @@ nav a:hover{
     width:100%;
 }
 
-
+.hero-imagem-pequena{
+    width: 500px;
+}
+.hero-imagem-media{
+    width: 315px;
+}
 .estatisticas{
     display:flex;
     flex-wrap:wrap;
