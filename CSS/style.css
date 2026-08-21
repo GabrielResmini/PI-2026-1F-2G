@@ -216,12 +216,11 @@ nav a:hover{
     max-width:600px;
 }
 
-.hero-imagem-aulas  {
-    width: 450px;
+.hero-imagem-aulas {
+    width: 550px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 24px;
     display: block;
-
 }
 
 
