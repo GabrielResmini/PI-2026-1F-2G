@@ -2012,3 +2012,103 @@ button:focus-visible{
         grid-template-columns: 1fr;
     }
 }
+
+#metodiza-problemas-comuns {
+    width: 100%;
+    margin: 0 0 35px 0;
+}
+
+.metodiza-problemas-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.metodiza-problemas-titulo h3 {
+    margin: 0;
+    color: #16803c;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.metodiza-problemas-icone {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #16803c;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.metodiza-problemas-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    width: 100%;
+}
+
+.metodiza-problema-card {
+    min-height: 260px;
+    padding: 22px 18px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.metodiza-problema-icone {
+    width: 78px;
+    height: 78px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.metodiza-problema-icone img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.metodiza-problema-card h4 {
+    margin: 0 0 15px 0;
+    color: #111111;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.metodiza-problema-card p {
+    margin: 0;
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+@media (max-width: 1000px) {
+    .metodiza-problemas-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .metodiza-problemas-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .metodiza-problema-card {
+        min-height: 230px;
+    }
+}
