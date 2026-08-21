@@ -1779,3 +1779,236 @@ button:focus-visible{
 
 }
 
+
+
+.sobre-acesso {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 8%;
+}
+
+.sobre-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.sobre-titulo h2 {
+    margin: 0;
+    color: var(--verde-principal);
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.sobre-titulo span {
+    width: 45px;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--verde-medio);
+}
+
+.sobre-subtitulo {
+    max-width: 600px;
+    margin: 0 auto 35px;
+    text-align: center;
+    color: var(--texto-suave);
+    font-size: 14px;
+}
+
+.sobre-grid-acesso {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.sobre-card-link {
+    position: relative;
+    min-height: 210px;
+    padding: 25px 20px;
+    background: var(--branco);
+    border: 1px solid var(--verde-borda);
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.06);
+    transition: .3s;
+}
+
+.sobre-card-link:hover {
+    transform: translateY(-7px);
+    border-color: var(--verde-medio);
+    box-shadow: 0 10px 25px rgba(0,0,0,.10);
+}
+
+.sobre-icone {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    border-radius: 14px;
+    background: var(--verde-fundo);
+}
+
+.sobre-icone img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.sobre-card-link h3 {
+    margin-bottom: 7px;
+    color: var(--verde-escuro);
+    font-size: 18px;
+}
+
+.sobre-card-link p {
+    color: var(--texto-suave);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.sobre-seta {
+    position: absolute;
+    right: 18px;
+    bottom: 15px;
+    color: var(--verde-principal);
+    font-size: 22px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.sobre-card-link:hover .sobre-seta {
+    transform: translateX(5px);
+}
+
+@media (max-width: 900px) {
+    .sobre-grid-acesso {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .sobre-grid-acesso {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-titulo h2 {
+        font-size: 21px;
+    }
+
+    .sobre-titulo span {
+        width: 30px;
+    }
+}
+
+
+.novo-proposito {
+    position: relative;
+}
+
+.novo-card-sobre {
+    position: relative;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease;
+}
+
+.novo-card-sobre::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    bottom: 20px;
+    width: 4px;
+    border-radius: 10px;
+    background: var(--verde-principal);
+}
+
+.novo-card-sobre:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.09);
+}
+
+.novo-titulo-card {
+    margin: 0 0 14px;
+    padding-left: 8px;
+    color: var(--verde-principal);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.novo-texto-card {
+    margin: 0;
+    color: #555;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+
+/* ===== NOVO ESTILO - COMO FUNCIONA ===== */
+
+.nova-como-funciona {
+    position: relative;
+}
+
+.novo-titulo-secao {
+    margin-bottom: 35px;
+    color: var(--verde-principal);
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.novo-grid-funciona {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.novo-passo {
+    position: relative;
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.novo-passo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.09);
+}
+
+.novo-passo img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.novo-passo h3 {
+    margin: 5px 0 10px;
+    color: var(--verde-principal);
+    font-size: 20px;
+}
+
+.novo-passo p {
+    margin: 0;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 800px) {
+    .novo-grid-funciona {
+        grid-template-columns: 1fr;
+    }
+}
