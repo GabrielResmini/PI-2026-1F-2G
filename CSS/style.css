@@ -470,10 +470,12 @@ nav a:hover{
     background:var(--verde-fundo);
 }
 
-.card-aula-imagem img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+.card-aula-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;  
+
 }
 
 .card-aula-titulo{
