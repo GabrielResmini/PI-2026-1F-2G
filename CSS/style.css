@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5ec602f2a1f02ee91998b9f47000af116db9fadb
 :root{
     --verde-principal:#0B6B2F;
     --verde-escuro:#145827;
@@ -219,14 +222,19 @@ nav a:hover{
 .hero-imagem,
 .banner img,
 .falta-banner img{
-    width:340px;
+    width:341px;
 }
 
 .hero-img{
     width:100%;
 }
 
-
+.hero-imagem-pequena{
+    width: 500px;
+}
+.hero-imagem-media{
+    width: 315px;
+}
 .estatisticas{
     display:flex;
     flex-wrap:wrap;
