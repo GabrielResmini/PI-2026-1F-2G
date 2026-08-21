@@ -961,15 +961,18 @@ button:focus-visible{
     font-weight:600;
 }
 
-.hero-materia .hero-imagem{
-    width:210px;
-    min-width:160px;
-    border-radius: 15px;
+.hero-materia .hero-imagem {
+    width: 320px;
+    min-width: 260px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-.hero-materia .hero-img{
-    max-height:160px;
-    object-fit:contain;
+.hero-materia .hero-img {
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
 }
 
 .hero-materia img[src=""]{
