@@ -216,7 +216,15 @@ nav a:hover{
     max-width:600px;
 }
 
-.hero-imagem,
+.hero-imagem-aulas  {
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+
+}
+
+
 .banner img,
 .falta-banner img{
     width:341px;
@@ -227,7 +235,7 @@ nav a:hover{
 }
 
 .hero-imagem-pequena{
-    width: 500px;
+    width: 500px;;
 }
 .hero-imagem-media{
     width: 315px;
